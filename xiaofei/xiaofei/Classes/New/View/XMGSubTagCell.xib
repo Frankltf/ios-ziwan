@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="XMGSubTagCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="80"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ook-SZ-mhE">
+                    <rect key="frame" x="15" y="10" width="60" height="60"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="60" id="WQZ-CW-eia"/>
+                        <constraint firstAttribute="width" constant="60" id="nVI-JL-6dU"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="riq-lX-ete">
+                    <rect key="frame" x="85" y="10" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8fJ-yx-Nvy">
+                    <rect key="frame" x="85" y="49" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sAK-nV-WfU">
+                    <rect key="frame" x="266" y="30" width="31" height="30"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                    <state key="normal" title="订阅"/>
+                    <connections>
+                        <action selector="toshopCar:" destination="iN0-l3-epB" eventType="touchUpInside" id="1i9-SI-6Up"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="ook-SZ-mhE" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="AjH-fl-LiU"/>
+                <constraint firstItem="riq-lX-ete" firstAttribute="top" secondItem="ook-SZ-mhE" secondAttribute="top" id="OM6-77-bBr"/>
+                <constraint firstItem="8fJ-yx-Nvy" firstAttribute="bottom" secondItem="ook-SZ-mhE" secondAttribute="bottom" id="dHY-oS-yih"/>
+                <constraint firstItem="ook-SZ-mhE" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="15" id="djk-sa-4B3"/>
+                <constraint firstItem="8fJ-yx-Nvy" firstAttribute="leading" secondItem="ook-SZ-mhE" secondAttribute="trailing" constant="10" id="gPj-Tx-GlD"/>
+                <constraint firstItem="riq-lX-ete" firstAttribute="leading" secondItem="ook-SZ-mhE" secondAttribute="trailing" constant="10" id="rWy-6y-Oqo"/>
+                <constraint firstItem="8fJ-yx-Nvy" firstAttribute="leading" secondItem="riq-lX-ete" secondAttribute="leading" id="vKq-be-lMi"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="bottomLabel" destination="8fJ-yx-Nvy" id="hkd-pi-KdY"/>
+                <outlet property="subImageView" destination="ook-SZ-mhE" id="EHn-a4-sEO"/>
+                <outlet property="topLabel" destination="riq-lX-ete" id="09I-sV-sIr"/>
+            </connections>
+        </view>
+    </objects>
+</document>

@@ -19,6 +19,13 @@
 		25538A311F5114FB00714B7F /* XMGPublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25538A301F5114FB00714B7F /* XMGPublishViewController.m */; };
 		25538A341F51185300714B7F /* XMGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25538A331F51185300714B7F /* XMGTabBarController.m */; };
 		25538A371F511A6100714B7F /* XMGMeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 25538A361F511A6100714B7F /* XMGMeTableViewController.m */; };
+		6403DC5BC1BD3FE673562250 /* libPods-xiaofei.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FAEBCF2E4991E1C4E85D929A /* libPods-xiaofei.a */; };
+		84BD3A071F5400BD004DD917 /* UIBarButtonItem+Item.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3A061F5400BD004DD917 /* UIBarButtonItem+Item.m */; };
+		84BD3A0A1F540A5A004DD917 /* XMGSubTagController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3A091F540A5A004DD917 /* XMGSubTagController.m */; };
+		84BD3A0D1F54130C004DD917 /* XMGSubTagCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3A0C1F54130C004DD917 /* XMGSubTagCell.m */; };
+		84BD3A0F1F541321004DD917 /* XMGSubTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BD3A0E1F541321004DD917 /* XMGSubTagCell.xib */; };
+		84BD3A151F54178E004DD917 /* XMGSubTagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3A141F54178E004DD917 /* XMGSubTagItem.m */; };
+		84BD3A181F545612004DD917 /* UIImageView+Down.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3A171F545612004DD917 /* UIImageView+Down.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +62,20 @@
 		25538A331F51185300714B7F /* XMGTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGTabBarController.m; sourceTree = "<group>"; };
 		25538A351F511A6100714B7F /* XMGMeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGMeTableViewController.h; sourceTree = "<group>"; };
 		25538A361F511A6100714B7F /* XMGMeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGMeTableViewController.m; sourceTree = "<group>"; };
+		84BD3A051F5400BD004DD917 /* UIBarButtonItem+Item.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Item.h"; sourceTree = "<group>"; };
+		84BD3A061F5400BD004DD917 /* UIBarButtonItem+Item.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Item.m"; sourceTree = "<group>"; };
+		84BD3A081F540A5A004DD917 /* XMGSubTagController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSubTagController.h; sourceTree = "<group>"; };
+		84BD3A091F540A5A004DD917 /* XMGSubTagController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSubTagController.m; sourceTree = "<group>"; };
+		84BD3A0B1F54130C004DD917 /* XMGSubTagCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSubTagCell.h; sourceTree = "<group>"; };
+		84BD3A0C1F54130C004DD917 /* XMGSubTagCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSubTagCell.m; sourceTree = "<group>"; };
+		84BD3A0E1F541321004DD917 /* XMGSubTagCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XMGSubTagCell.xib; sourceTree = "<group>"; };
+		84BD3A131F54178E004DD917 /* XMGSubTagItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGSubTagItem.h; sourceTree = "<group>"; };
+		84BD3A141F54178E004DD917 /* XMGSubTagItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSubTagItem.m; sourceTree = "<group>"; };
+		84BD3A161F545612004DD917 /* UIImageView+Down.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Down.h"; sourceTree = "<group>"; };
+		84BD3A171F545612004DD917 /* UIImageView+Down.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Down.m"; sourceTree = "<group>"; };
+		98111D000626B7321610D8E8 /* Pods-xiaofei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaofei.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xiaofei/Pods-xiaofei.debug.xcconfig"; sourceTree = "<group>"; };
+		EADA04FCC98A1F75B27C2D94 /* Pods-xiaofei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaofei.release.xcconfig"; path = "Pods/Target Support Files/Pods-xiaofei/Pods-xiaofei.release.xcconfig"; sourceTree = "<group>"; };
+		FAEBCF2E4991E1C4E85D929A /* libPods-xiaofei.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xiaofei.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +83,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6403DC5BC1BD3FE673562250 /* libPods-xiaofei.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +97,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23B0FC5BCB21865D00D4399E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98111D000626B7321610D8E8 /* Pods-xiaofei.debug.xcconfig */,
+				EADA04FCC98A1F75B27C2D94 /* Pods-xiaofei.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		255389CF1F5086B600714B7F = {
 			isa = PBXGroup;
 			children = (
 				255389DA1F5086B600714B7F /* xiaofei */,
 				255389F41F5086B600714B7F /* xiaofeiUITests */,
 				255389D91F5086B600714B7F /* Products */,
+				23B0FC5BCB21865D00D4399E /* Pods */,
+				CD5921227EC7291ABEE675B1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -249,6 +282,8 @@
 			children = (
 				25538A2C1F5114D900714B7F /* XMGNewViewController.h */,
 				25538A2D1F5114D900714B7F /* XMGNewViewController.m */,
+				84BD3A081F540A5A004DD917 /* XMGSubTagController.h */,
+				84BD3A091F540A5A004DD917 /* XMGSubTagController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -256,6 +291,8 @@
 		25538A0F1F5111B300714B7F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				84BD3A131F54178E004DD917 /* XMGSubTagItem.h */,
+				84BD3A141F54178E004DD917 /* XMGSubTagItem.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -263,6 +300,9 @@
 		25538A101F5111B300714B7F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				84BD3A0B1F54130C004DD917 /* XMGSubTagCell.h */,
+				84BD3A0C1F54130C004DD917 /* XMGSubTagCell.m */,
+				84BD3A0E1F541321004DD917 /* XMGSubTagCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -270,6 +310,7 @@
 		25538A111F5111B300714B7F /* Other */ = {
 			isa = PBXGroup;
 			children = (
+				84BD39FE1F540008004DD917 /* Category */,
 				25538A121F5111B300714B7F /* AppDelegate.h */,
 				25538A131F5111B300714B7F /* AppDelegate.m */,
 				25538A141F5111B300714B7F /* main.m */,
@@ -377,6 +418,25 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		84BD39FE1F540008004DD917 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				84BD3A051F5400BD004DD917 /* UIBarButtonItem+Item.h */,
+				84BD3A061F5400BD004DD917 /* UIBarButtonItem+Item.m */,
+				84BD3A161F545612004DD917 /* UIImageView+Down.h */,
+				84BD3A171F545612004DD917 /* UIImageView+Down.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		CD5921227EC7291ABEE675B1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAEBCF2E4991E1C4E85D929A /* libPods-xiaofei.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -384,9 +444,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 255389FA1F5086B600714B7F /* Build configuration list for PBXNativeTarget "xiaofei" */;
 			buildPhases = (
+				EC97D55E4053B8E43FDF844B /* [CP] Check Pods Manifest.lock */,
 				255389D41F5086B600714B7F /* Sources */,
 				255389D51F5086B600714B7F /* Frameworks */,
 				255389D61F5086B600714B7F /* Resources */,
+				756128064CD692372996E5AA /* [CP] Embed Pods Frameworks */,
+				E466A38B8F82EE24388E41A5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -462,6 +525,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BD3A0F1F541321004DD917 /* XMGSubTagCell.xib in Resources */,
 				255389EB1F5086B600714B7F /* LaunchScreen.storyboard in Resources */,
 				255389E81F5086B600714B7F /* Assets.xcassets in Resources */,
 				255389E61F5086B600714B7F /* Main.storyboard in Resources */,
@@ -477,18 +541,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		756128064CD692372996E5AA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xiaofei/Pods-xiaofei-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E466A38B8F82EE24388E41A5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-xiaofei/Pods-xiaofei-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EC97D55E4053B8E43FDF844B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		255389D41F5086B600714B7F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84BD3A181F545612004DD917 /* UIImageView+Down.m in Sources */,
 				25538A251F5114A600714B7F /* XMGEssenceViewController.m in Sources */,
+				84BD3A071F5400BD004DD917 /* UIBarButtonItem+Item.m in Sources */,
 				25538A311F5114FB00714B7F /* XMGPublishViewController.m in Sources */,
+				84BD3A151F54178E004DD917 /* XMGSubTagItem.m in Sources */,
 				25538A371F511A6100714B7F /* XMGMeTableViewController.m in Sources */,
+				84BD3A0A1F540A5A004DD917 /* XMGSubTagController.m in Sources */,
 				25538A2E1F5114D900714B7F /* XMGNewViewController.m in Sources */,
 				25538A341F51185300714B7F /* XMGTabBarController.m in Sources */,
 				25538A281F5114C200714B7F /* XMGFriendTrendViewController.m in Sources */,
 				25538A1A1F5111B300714B7F /* main.m in Sources */,
+				84BD3A0D1F54130C004DD917 /* XMGSubTagCell.m in Sources */,
 				25538A191F5111B300714B7F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -625,8 +742,10 @@
 		};
 		255389FB1F5086B600714B7F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98111D000626B7321610D8E8 /* Pods-xiaofei.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = X6Q9Y9GBJ2;
 				INFOPLIST_FILE = xiaofei/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -638,8 +757,10 @@
 		};
 		255389FC1F5086B600714B7F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EADA04FCC98A1F75B27C2D94 /* Pods-xiaofei.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				DEVELOPMENT_TEAM = X6Q9Y9GBJ2;
 				INFOPLIST_FILE = xiaofei/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -692,6 +813,7 @@
 				255389FC1F5086B600714B7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		255389FD1F5086B600714B7F /* Build configuration list for PBXNativeTarget "xiaofeiUITests" */ = {
 			isa = XCConfigurationList;
@@ -700,6 +822,7 @@
 				255389FF1F5086B600714B7F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
