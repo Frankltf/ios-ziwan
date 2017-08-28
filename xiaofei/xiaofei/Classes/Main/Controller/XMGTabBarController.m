@@ -12,6 +12,7 @@
 #import "XMGPublishViewController.h"
 #import "XMGFriendTrendViewController.h"
 #import "XMGMeTableViewController.h"
+#import "XMGNavigationController.h"
 
 @interface XMGTabBarController ()
 
@@ -28,7 +29,7 @@
 //设置根目录控制器
 -(void)setupChildController{
     XMGEssenceViewController *essence=[[XMGEssenceViewController alloc]init];
-    UINavigationController *navEssence=[[UINavigationController alloc]initWithRootViewController:essence];
+    XMGNavigationController *navEssence=[[XMGNavigationController alloc]initWithRootViewController:essence];
     navEssence.tabBarItem.title=@"精华";
     navEssence.tabBarItem.image=[UIImage imageNamed:@"tabBar_essence_icon"];
     
@@ -36,25 +37,25 @@
     [self addChildViewController:navEssence];
     
     XMGNewViewController *new=[[XMGNewViewController alloc]init];
-    UINavigationController *navNew=[[UINavigationController alloc]initWithRootViewController:new];
+    XMGNavigationController *navNew=[[XMGNavigationController alloc]initWithRootViewController:new];
     navNew.tabBarItem.title=@"新帖";
     navNew.tabBarItem.image = [UIImage imageNamed:@"tabBar_new_icon"];
     [self addChildViewController:navNew];
     
     XMGPublishViewController *publish=[[XMGPublishViewController alloc]init];
-    UINavigationController *navPublish=[[UINavigationController alloc]initWithRootViewController:publish];
+    XMGNavigationController *navPublish=[[XMGNavigationController alloc]initWithRootViewController:publish];
     navPublish.tabBarItem.title=@"发布";
     
     [self addChildViewController:navPublish];
     
     XMGFriendTrendViewController *friendTrend=[[XMGFriendTrendViewController alloc]init];
-    UINavigationController *navfriend=[[UINavigationController alloc]initWithRootViewController:friendTrend];
+    XMGNavigationController *navfriend=[[XMGNavigationController alloc]initWithRootViewController:friendTrend];
     navfriend.tabBarItem.title=@"关注";
      navfriend.tabBarItem.image = [UIImage imageNamed:@"tabBar_friendTrends_icon"];
     [self addChildViewController:navfriend];
     
     XMGMeTableViewController *me=[[XMGMeTableViewController alloc]init];
-    UINavigationController *navMe=[[UINavigationController alloc]initWithRootViewController:me];
+    XMGNavigationController *navMe=[[XMGNavigationController alloc]initWithRootViewController:me];
     navMe.tabBarItem.title=@"我的";
     navMe.tabBarItem.image = [UIImage imageNamed:@"tabBar_me_icon"];
     [self addChildViewController:navMe];

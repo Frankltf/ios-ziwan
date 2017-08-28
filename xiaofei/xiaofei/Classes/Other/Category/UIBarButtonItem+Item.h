@@ -10,4 +10,5 @@
 
 @interface UIBarButtonItem (Item)
 +(UIBarButtonItem *)itemWithImage:(UIImage *)image highImage:(UIImage *)highImage target:(id)target action:(SEL)action;
++(UIBarButtonItem *)itemWithImageToBack:(UIImage *)image highImage:(UIImage *)highImage target:(id)target action:(SEL)action title:(NSString *)title;
 @end

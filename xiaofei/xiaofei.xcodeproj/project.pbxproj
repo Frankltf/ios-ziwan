@@ -26,6 +26,8 @@
 		84BD3A0F1F541321004DD917 /* XMGSubTagCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84BD3A0E1F541321004DD917 /* XMGSubTagCell.xib */; };
 		84BD3A151F54178E004DD917 /* XMGSubTagItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3A141F54178E004DD917 /* XMGSubTagItem.m */; };
 		84BD3A181F545612004DD917 /* UIImageView+Down.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3A171F545612004DD917 /* UIImageView+Down.m */; };
+		84BD3A1B1F5458FF004DD917 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3A1A1F5458FF004DD917 /* UIImage+Image.m */; };
+		84BD3A1E1F545D22004DD917 /* XMGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3A1D1F545D22004DD917 /* XMGNavigationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +75,10 @@
 		84BD3A141F54178E004DD917 /* XMGSubTagItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGSubTagItem.m; sourceTree = "<group>"; };
 		84BD3A161F545612004DD917 /* UIImageView+Down.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+Down.h"; sourceTree = "<group>"; };
 		84BD3A171F545612004DD917 /* UIImageView+Down.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+Down.m"; sourceTree = "<group>"; };
+		84BD3A191F5458FF004DD917 /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		84BD3A1A1F5458FF004DD917 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		84BD3A1C1F545D22004DD917 /* XMGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGNavigationController.h; sourceTree = "<group>"; };
+		84BD3A1D1F545D22004DD917 /* XMGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGNavigationController.m; sourceTree = "<group>"; };
 		98111D000626B7321610D8E8 /* Pods-xiaofei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaofei.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xiaofei/Pods-xiaofei.debug.xcconfig"; sourceTree = "<group>"; };
 		EADA04FCC98A1F75B27C2D94 /* Pods-xiaofei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaofei.release.xcconfig"; path = "Pods/Target Support Files/Pods-xiaofei/Pods-xiaofei.release.xcconfig"; sourceTree = "<group>"; };
 		FAEBCF2E4991E1C4E85D929A /* libPods-xiaofei.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xiaofei.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -366,6 +372,8 @@
 			children = (
 				25538A321F51185300714B7F /* XMGTabBarController.h */,
 				25538A331F51185300714B7F /* XMGTabBarController.m */,
+				84BD3A1C1F545D22004DD917 /* XMGNavigationController.h */,
+				84BD3A1D1F545D22004DD917 /* XMGNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -425,6 +433,8 @@
 				84BD3A061F5400BD004DD917 /* UIBarButtonItem+Item.m */,
 				84BD3A161F545612004DD917 /* UIImageView+Down.h */,
 				84BD3A171F545612004DD917 /* UIImageView+Down.m */,
+				84BD3A191F5458FF004DD917 /* UIImage+Image.h */,
+				84BD3A1A1F5458FF004DD917 /* UIImage+Image.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -597,6 +607,7 @@
 				84BD3A181F545612004DD917 /* UIImageView+Down.m in Sources */,
 				25538A251F5114A600714B7F /* XMGEssenceViewController.m in Sources */,
 				84BD3A071F5400BD004DD917 /* UIBarButtonItem+Item.m in Sources */,
+				84BD3A1E1F545D22004DD917 /* XMGNavigationController.m in Sources */,
 				25538A311F5114FB00714B7F /* XMGPublishViewController.m in Sources */,
 				84BD3A151F54178E004DD917 /* XMGSubTagItem.m in Sources */,
 				25538A371F511A6100714B7F /* XMGMeTableViewController.m in Sources */,
@@ -605,6 +616,7 @@
 				25538A341F51185300714B7F /* XMGTabBarController.m in Sources */,
 				25538A281F5114C200714B7F /* XMGFriendTrendViewController.m in Sources */,
 				25538A1A1F5111B300714B7F /* main.m in Sources */,
+				84BD3A1B1F5458FF004DD917 /* UIImage+Image.m in Sources */,
 				84BD3A0D1F54130C004DD917 /* XMGSubTagCell.m in Sources */,
 				25538A191F5111B300714B7F /* AppDelegate.m in Sources */,
 			);
