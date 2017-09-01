@@ -28,6 +28,11 @@
 		84BD3A181F545612004DD917 /* UIImageView+Down.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3A171F545612004DD917 /* UIImageView+Down.m */; };
 		84BD3A1B1F5458FF004DD917 /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3A1A1F5458FF004DD917 /* UIImage+Image.m */; };
 		84BD3A1E1F545D22004DD917 /* XMGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84BD3A1D1F545D22004DD917 /* XMGNavigationController.m */; };
+		84D01EA21F58F487001AF2FF /* XMGAllTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D01EA11F58F487001AF2FF /* XMGAllTableViewController.m */; };
+		84D01EA51F58F4A3001AF2FF /* XMGVedioTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D01EA41F58F4A3001AF2FF /* XMGVedioTableViewController.m */; };
+		84D01EA81F58F4AE001AF2FF /* XMGVoiceTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D01EA71F58F4AE001AF2FF /* XMGVoiceTableViewController.m */; };
+		84D01EAB1F58F4BF001AF2FF /* XMGPhotoTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D01EAA1F58F4BF001AF2FF /* XMGPhotoTableViewController.m */; };
+		84D01EAE1F58F4CA001AF2FF /* XMGWordTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84D01EAD1F58F4CA001AF2FF /* XMGWordTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -79,6 +84,16 @@
 		84BD3A1A1F5458FF004DD917 /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
 		84BD3A1C1F545D22004DD917 /* XMGNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGNavigationController.h; sourceTree = "<group>"; };
 		84BD3A1D1F545D22004DD917 /* XMGNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGNavigationController.m; sourceTree = "<group>"; };
+		84D01EA01F58F487001AF2FF /* XMGAllTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGAllTableViewController.h; sourceTree = "<group>"; };
+		84D01EA11F58F487001AF2FF /* XMGAllTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGAllTableViewController.m; sourceTree = "<group>"; };
+		84D01EA31F58F4A3001AF2FF /* XMGVedioTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGVedioTableViewController.h; sourceTree = "<group>"; };
+		84D01EA41F58F4A3001AF2FF /* XMGVedioTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGVedioTableViewController.m; sourceTree = "<group>"; };
+		84D01EA61F58F4AE001AF2FF /* XMGVoiceTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGVoiceTableViewController.h; sourceTree = "<group>"; };
+		84D01EA71F58F4AE001AF2FF /* XMGVoiceTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGVoiceTableViewController.m; sourceTree = "<group>"; };
+		84D01EA91F58F4BF001AF2FF /* XMGPhotoTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGPhotoTableViewController.h; sourceTree = "<group>"; };
+		84D01EAA1F58F4BF001AF2FF /* XMGPhotoTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGPhotoTableViewController.m; sourceTree = "<group>"; };
+		84D01EAC1F58F4CA001AF2FF /* XMGWordTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMGWordTableViewController.h; sourceTree = "<group>"; };
+		84D01EAD1F58F4CA001AF2FF /* XMGWordTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMGWordTableViewController.m; sourceTree = "<group>"; };
 		98111D000626B7321610D8E8 /* Pods-xiaofei.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaofei.debug.xcconfig"; path = "Pods/Target Support Files/Pods-xiaofei/Pods-xiaofei.debug.xcconfig"; sourceTree = "<group>"; };
 		EADA04FCC98A1F75B27C2D94 /* Pods-xiaofei.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-xiaofei.release.xcconfig"; path = "Pods/Target Support Files/Pods-xiaofei/Pods-xiaofei.release.xcconfig"; sourceTree = "<group>"; };
 		FAEBCF2E4991E1C4E85D929A /* libPods-xiaofei.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-xiaofei.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -395,6 +410,7 @@
 		25538A1F1F51145100714B7F /* Essence */ = {
 			isa = PBXGroup;
 			children = (
+				25538A211F51145100714B7F /* Model */,
 				25538A201F51145100714B7F /* Controller */,
 				25538A221F51145100714B7F /* View */,
 			);
@@ -406,7 +422,16 @@
 			children = (
 				25538A231F5114A600714B7F /* XMGEssenceViewController.h */,
 				25538A241F5114A600714B7F /* XMGEssenceViewController.m */,
-				25538A211F51145100714B7F /* Model */,
+				84D01EA01F58F487001AF2FF /* XMGAllTableViewController.h */,
+				84D01EA11F58F487001AF2FF /* XMGAllTableViewController.m */,
+				84D01EA31F58F4A3001AF2FF /* XMGVedioTableViewController.h */,
+				84D01EA41F58F4A3001AF2FF /* XMGVedioTableViewController.m */,
+				84D01EA61F58F4AE001AF2FF /* XMGVoiceTableViewController.h */,
+				84D01EA71F58F4AE001AF2FF /* XMGVoiceTableViewController.m */,
+				84D01EA91F58F4BF001AF2FF /* XMGPhotoTableViewController.h */,
+				84D01EAA1F58F4BF001AF2FF /* XMGPhotoTableViewController.m */,
+				84D01EAC1F58F4CA001AF2FF /* XMGWordTableViewController.h */,
+				84D01EAD1F58F4CA001AF2FF /* XMGWordTableViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -415,8 +440,7 @@
 			isa = PBXGroup;
 			children = (
 			);
-			name = Model;
-			path = ../Model;
+			path = Model;
 			sourceTree = "<group>";
 		};
 		25538A221F51145100714B7F /* View */ = {
@@ -606,11 +630,15 @@
 			files = (
 				84BD3A181F545612004DD917 /* UIImageView+Down.m in Sources */,
 				25538A251F5114A600714B7F /* XMGEssenceViewController.m in Sources */,
+				84D01EA21F58F487001AF2FF /* XMGAllTableViewController.m in Sources */,
 				84BD3A071F5400BD004DD917 /* UIBarButtonItem+Item.m in Sources */,
 				84BD3A1E1F545D22004DD917 /* XMGNavigationController.m in Sources */,
+				84D01EA81F58F4AE001AF2FF /* XMGVoiceTableViewController.m in Sources */,
 				25538A311F5114FB00714B7F /* XMGPublishViewController.m in Sources */,
 				84BD3A151F54178E004DD917 /* XMGSubTagItem.m in Sources */,
+				84D01EA51F58F4A3001AF2FF /* XMGVedioTableViewController.m in Sources */,
 				25538A371F511A6100714B7F /* XMGMeTableViewController.m in Sources */,
+				84D01EAE1F58F4CA001AF2FF /* XMGWordTableViewController.m in Sources */,
 				84BD3A0A1F540A5A004DD917 /* XMGSubTagController.m in Sources */,
 				25538A2E1F5114D900714B7F /* XMGNewViewController.m in Sources */,
 				25538A341F51185300714B7F /* XMGTabBarController.m in Sources */,
@@ -618,6 +646,7 @@
 				25538A1A1F5111B300714B7F /* main.m in Sources */,
 				84BD3A1B1F5458FF004DD917 /* UIImage+Image.m in Sources */,
 				84BD3A0D1F54130C004DD917 /* XMGSubTagCell.m in Sources */,
+				84D01EAB1F58F4BF001AF2FF /* XMGPhotoTableViewController.m in Sources */,
 				25538A191F5111B300714B7F /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
