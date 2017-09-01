@@ -95,6 +95,9 @@
     self.previousBtn=button;
     
 }
+-(void)addtableViewToScrollView{
+    
+}
 //加入tableview
 
 @end
